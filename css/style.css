@@ -1,0 +1,465 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+/*===================шрифт============================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+   
+/*=======================body==============================*/
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/*==================MAIN============================*/
+
+/*=================HEADER =================================*/
+
+.header {
+   font-family: 'Roboto', sans-serif;
+   margin-bottom: 50px;
+}
+.header-title {
+   padding: 25px 0;
+   background-color: rgb(0, 255, 200);
+   border-radius: 10px;
+   margin-bottom: 15px;
+}
+
+.header-title h1 {
+   text-align: center;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   text-shadow: 3px 2px 1px grey, 1px 1px 1px white;
+
+}
+
+nav ul {
+   max-width: 50%;
+   margin: 0 auto;
+   background-color: rgb(75, 250, 69);
+   text-align: center;
+   border-radius: 20px;
+   padding: 10px 0;
+}
+nav ul li {
+   display: inline-block;
+   background-color: rgb(158, 159, 250);
+   margin-right: 25px;
+   border-radius: 10px;
+   box-shadow: 2px 1px 2px grey;
+}
+
+nav ul li a {
+   display: block;
+   padding: 15px 30px;
+   text-shadow: 1px 1px 1px white;
+   color: #000;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+
+/*======================MAIN================================*/
+
+/*=================CAR_FIRST=================================*/
+
+.pr1 {
+   background-color: rgb(248, 214, 214);
+   border-radius: 5px;
+   padding: 20px;
+}
+.car {
+   margin-bottom: 50px;
+   background-color: rgb(252, 79, 79);
+   border-radius: 7px;
+   padding:20px 20px;
+}
+.car-firsr {
+   margin-bottom: 250px;
+   padding: 20px 10px;
+   background-color: #8ffcb0;
+}
+.car-first-wrapper {
+   background-color: #F5F5F5;
+   
+}
+.car-first-body {
+   max-width: 1020px;
+   margin: 0 auto;
+   padding: 100px 87px 0;
+   background-color: #fff;
+}
+.car-first-subtitle {
+   margin-bottom: 33px;
+}
+
+.car-first-subtitle h2 {
+   display: inline-block;
+   text-transform: uppercase;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 26px;
+   letter-spacing: 2.5px;
+   color: #4B4B4B;  
+   text-align: center; 
+}
+
+.car-first-title {
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #02133C;
+   min-width: 583px;
+   margin-bottom: 36px;
+}
+
+.car-first-desc {
+   margin-bottom: 54px;
+}
+.car-first-desc h3{
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #4B4B4B;
+}
+
+.car-first-img  img{
+   margin-bottom: -120px;
+}
+
+/*==================CAR_SECOND================================*/
+
+.car-second-wrapper {
+   margin: 0 auto;
+   padding: 25px 0;
+   max-width: 1020px;
+   background-color: #F5F5F5;
+}
+.car-second-cart {
+   text-align: center;
+   background-color: #fff;
+   max-width: 324px;
+   margin: 0 auto 24px;
+   padding: 50px 44px 50px 43px;
+}
+.second-img {
+   margin: 0 auto 33px;
+}
+.car-second-title {
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 26px;
+   color: #02133C;
+   margin-bottom: 20px;
+}
+.car-second-desc {
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #4B4B4B;
+}
+
+/*=================TECH_SECOND================================*/
+
+.tech-second {
+  background-color: rgb(248, 246, 110);
+  border-radius: 4px;
+}
+.tech-second-wrapper {
+   max-width: 1020px;
+   margin: 0 auto;
+   background-color: #000;
+   padding: 100px;
+}
+.tech-second-card {
+   font-family: 'Poppins', sans-serif;
+   text-align-last: left;
+   margin: 0 auto;
+   max-width: 446px;
+   background-color: #fff;
+   padding: 5px;
+}
+.tech-card-label {
+   margin-bottom: 9px;
+   max-width: 50px;
+}
+.tech-card-title {
+   font-size: 44px;
+line-height: 58px;
+color: #000;
+margin-bottom: 24px;
+font-weight:500;
+}
+.tech-card-desc {
+font-weight:300;
+font-size: 18px;
+line-height: 26px;
+color: #000;
+margin-bottom: 24px;
+align-items: center;
+}
+
+/*==================Practice 2================================*/
+section.pr2 {
+   background-color: rgb(214, 248, 248);
+   border-radius: 5px;
+   padding: 20px;
+}
+
+.pr2 .title {
+   font-family: 'Poppins', sans-serif;
+font-weight: bold;
+font-size: 54px;
+line-height: 79px;
+letter-spacing: 0.8px;
+color: #323232;
+text-align: center;
+}
+
+#pract2:visited,#pract2:active {
+   color: #323232;
+}
+
+/*========CUTSPACE==============*/
+
+.cutspace-wrapper {
+   max-width: 1020px;
+   margin: 0 auto;
+   background-color: #F78434;
+   padding: 20px 0;
+   border-radius: 7px;
+}
+
+.cutspace-card {
+   margin-bottom: 20px;
+}
+/*===========FIRST CARD=========================*/
+
+.card-provide {
+   margin: 0 auto 50px;
+   max-width: 384px;
+   font-family: 'Poppins', sans-serif;
+   background-color: #fff;
+   padding: 5px;
+}
+
+.card-provide h2 {
+   font-family: 'Poppins', sans-serif;
+font-weight: 700;
+font-size: 42px;
+line-height: 62px;
+letter-spacing: 0.8px;
+color: #323232;
+margin-bottom: 20px;
+}
+
+.card-provide p {
+   margin-bottom: 20px;
+font-weight: normal;
+font-size: 16px;
+line-height: 27px;
+letter-spacing: 1.15px;
+color: #323232;
+}
+
+.learn-link a {
+   display: inline-block;
+   text-align: center;
+   width: 172px;
+   padding: 18px 0;
+   background-color: #F78434;
+   color: #fff;
+   border-radius: 20px;
+   font-family: 'Poppins', sans-serif;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+}
+
+/*==============SALE_CARD=============================*/
+
+.sale {
+   padding: 20px 0;
+   max-width: 540px;
+   background-color: #fff;
+   margin: 0 auto;
+   text-align: center;
+}
+.sale-text {
+   font-family: 'Poppins', sans-serif;
+   max-width: 364px;
+   margin: 0 auto 25px;
+}
+
+.sale-text h2 {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 42px;
+   line-height: 63px;
+   letter-spacing: 0.8px;
+   color: #323232;
+}
+
+.sale-text h3 {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 27px;
+letter-spacing: 1.15px;
+color: #323232;
+}
+
+.sale-link a {
+   display: inline-block;
+   font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+color: #F78434;
+}
+
+/*============THANKS=============*/
+
+.thanks {
+   padding: 20px 0;
+}
+.thanks-body {
+   max-width: 360px;
+   margin: 0 auto;
+   background-color: #fff;
+   text-align: left;
+   padding: 5px;
+}
+
+.thanks-body h2 {
+font-size: 16px;
+line-height: 27px;
+letter-spacing: 1.15px;
+color: #323232;
+}
+
+.sign h3 {
+   font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.6px;
+color: #323232;
+}
+
+.sign p {
+font-size: 16px;
+line-height: 27px;
+letter-spacing: 1.15px;
+color: #58BEBF;
+}
+
+/*===========HEALTHY==============*/
+
+/*========FIRST=====================*/
+
+.healthy {
+   max-width: 1020px;
+   background-color: rgb(88, 252, 96);
+   margin: 0 auto;
+   padding: 20px 0;
+}
+.healthy-first {
+   margin-bottom: 25px;
+}
+.choose-body {
+   max-width: 255px;
+   padding: 24px 024px 60px 24px;
+   margin: 0 auto;
+   background: #252525;
+   border-radius: 5px;
+}
+
+.choose-body h2 {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   font-size: 22px;
+line-height: 26px;
+letter-spacing: -0.275px;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-bottom: 22px;
+}
+.line {
+   width: 56px;
+   height: 2px;
+   background-color: #34C759;
+   margin-bottom: 24px;
+}
+
+
+.choose-body h3 {
+   font-size: 13px;
+line-height: 18px;
+letter-spacing: -0.1625px;
+color: rgba(255, 255, 255, 0.5);
+}
+
+/*=============SECOND==================*/
+
+.dish-body {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   max-width: 350px;
+   margin: 0 auto;
+   background-color: #252525;
+   border-radius: 5px;
+}
+
+.dish-body img {
+   margin-bottom: 29px;
+}
+
+.dish-body h2 {
+ font-size: 32px;
+line-height: 30px;
+color: #D9D9D9;
+}
+
+.dish-body p {
+   font-size: 12px;
+line-height: 16px;
+letter-spacing: -0.15px;
+color: #A4A8B2;
+margin-bottom: 20px;
+}
+
+.dish-body h3 {
+   font-size: 13px;
+line-height: 18px;
+letter-spacing: -0.1625px;
+color: #85878C;
+}
